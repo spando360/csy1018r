@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
 h1 {
   font-size: 100px;
 }
@@ -19,72 +21,594 @@ h6 {
 }
 
 a {
-  color: Black;
   text-decoration: none;
   font-weight: bold;
 }
 
-body {
+/* When media is mobile */
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 25px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Do Hyeon', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #D3D3D3;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .maintitle {
+    position: absolute;
+    color: white;
+    align-self: baseline;
+    padding-left: 5%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .navelement {
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navelement:hover {
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Index Page */
+
+  .indexmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .quotetitle {
+    padding-right: 50%;
+    width: 100%;
+  }
+
+  .quote {
+    font-family: fantasy;
+    text-align:center;
+    width: 100%;
+  }
+
+  .quotedetails {
+    padding-right: 10%;
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  /* About Page */
+
+  .aboutmain {
   display: flex;
   flex-direction: column;
-  font-family: "verdana", sans-serif;
-  height: 100%;
-  margin: 0px;
-
-  background-color: blue;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 10%;
-  align-items: center;
-}
-
-.banner {
-  width: 100%;
-  height: 100%;
-  max-height: 250px;
-  object-fit: cover;
-}
-
-.maintitle {
-  position: absolute;
-  color: white;
-  align-self: baseline;
-  padding-left: 5%;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 10%;
-  width: 100%;
-
-  background-color: grey;
-}
-
-.navelement {
-  padding: 1%;
-  width: 8%;
+  flex-wrap: wrap;
   text-align: center;
+  width: 100%;
+  }
+
+  .biography {
+  height: 100%;
+  width: 100%;
+  }
+
+  .profile {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .profilepicture {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .goals {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* CV Page */
+
+  .cvmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .educationinfo {
+    height: 100%;
+    width: 100%;
+  }
+
+  .workexperience {
+    height: 100%;
+    width: 100%;
+  }
+
+  .personallifeexperience {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Social Page */
+
+  .socialmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .socialintro {
+  width: 100%;
+    }
+
+  .groupone {
+    width: 100%;
+  }
+
+  .iconone {
+width: 100%;
+    }
+
+  .socialone {
+width: 100%;
+    }
+
+  .socialonelink {
+width: 100%;
+  }
+
+  .grouptwo {
+    width: 100%;
+  }
+
+  .icontwo {
+width: 100%;
+  }
+
+  .socialtwo {
+width: 100%;
+  }
+
+  .socialtwolink {
+width: 100%;
+  }
+
+  .groupthree {
+    width: 100%;
+  }
+
+  .iconthree {
+width: 100%;
+  }
+
+  .socialthree {
+width: 100%;
+  }
+
+  .socilthreelink {
+width: 100%;
+  }
+
+  /* MPG Page */
+
+  .mgpmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .mgpgroupone {
+    width: 100%;
+  }
+
+  .siteonepic {
+  max-width: 100%;
+  width: 100%;
+  }
+
+  .siteonedesc {
+width: 100%;
+  }
+
+  .mgpgrouptwo {
+    width: 100%;
+  }
+
+  .sitetwopic {
+    max-width: 100%;
+    width: 50%;
+  }
+
+  .sitetwopictwo {
+    max-width: 100%;;
+    width: 100%;
+  }
+
+  .sitetwodesc {
+width: 100%;
+  }
+
+  .mgpgroupthree {
+    width: 100%;
+  }
+
+  .sitethreepic {
+    width: 100%;
+    max-width: 100%;
+    }
+
+  .sitethreedesc {
+width: 100%;
+  }
+
+  /* Contact Page */
+
+  .contactmain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nametitle {
+width: 50%
+  }
+
+  .emailnamebox {
+width: 50%;
+  }
+
+  .addresstitle {
+width: 50%;
+  }
+
+  .emailaddressbox {
+width: 50%;
+  }
+
+  .emailtitle {
+width: 100%;
+  }
+
+  .emailtextbox {
+width: 100%;
+  }
+
+  .submitbutton {
+width: 50%;
+  }
+
+  .resetbutton {
+width: 50%;
+  }
 }
 
+/* When media is desktop */
+@media only screen and (min-width: 601px) {
 
-footer {
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: "verdana", sans-serif;
+    height: 100%;
+    margin: 0px;
+    background-color: #D3D3D3;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .maintitle {
+    position: absolute;
+    color: white;
+    align-self: baseline;
+    padding-left: 5%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .navelement {
+    padding: 1%;
+    width: 9%;
+    text-align: center;
+  }
+
+  .navelement:hover {
+    padding: 1%;
+    width: 10%;
+    text-align: center;
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Index Page */
+
+  .indexmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quotetitle {
+    padding-right: 50%;
+  }
+
+  .quote {
+    font-family: fantasy;
+    text-align:center;
+  }
+
+  .quotedetails {
+    padding-right: 10%;
+    align-self: flex-end;
+  }
+
+  /* About Page */
+
+  .aboutmain {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 5%;
-  width: 100%;
-  background-color: green;
-}
+  flex-wrap: wrap;
+  text-align: center;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
+  .biography {
+  height: 100%;
+  width: 33%;
+  }
+
+  .profile {
+    height: 100%;
+    width: 33%;
+    max-height: 100%;
+    max-width: 33%;
+  }
+
+  .profilepicture {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    object-fit: contain;
+  }
+
+  .goals {
+    height: 100%;
+    width: 33%;
+  }
+
+  /* CV Page */
+
+  .cvmain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+  }
+
+  .educationinfo {
+    height: 100%;
+    width: 33%;
+  }
+
+  .workexperience {
+    height: 100%;
+    width: 33%;
+  }
+
+  .personallifeexperience {
+    height: 100%;
+    width: 33%;
+  }
+
+  /* Social Page */
+
+  .socialmain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .socialintro {
+  width: 100%;
+    }
+
+  .groupone {
+    width: 33%;
+  }
+
+  .grouptwo {
+    width: 33%;
+  }
+
+  .groupthree {
+    width: 33%;
+  }
+
+  /* MPG Page */
+
+  .mgpmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .mgpgroupone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    max-height: 250px;
+  }
+
+  .siteonepic {
+    height: auto;
+    width: auto;
+    max-width: 50%;
+    object-fit: contain;
+  }
+
+  .siteonedesc {
+    height: auto;
+    width: auto;
+    width: 50%;
+  }
+
+  .mgpgrouptwo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    max-height: 250px;
+  }
+
+  .sitetwopic {
+    height: auto;
+    width: auto;
+    max-width: 33%;
+    object-fit: contain;
+  }
+
+  .sitetwopictwo {
+    height: auto;
+    width: auto;
+    max-width: 33%;
+    object-fit: contain;
+  }
+
+  .sitetwodesc {
+width: 33%;
+  }
+
+  .mgpgroupthree {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    max-height: 250px;
+  }
+
+  .sitethreepic {
+    height: auto;
+    width: auto;
+    max-width: 50%;
+    object-fit: contain;
+    }
+
+  .sitethreedesc {
+width: 50%;
+  }
+
+  /* Contact Page */
+
+  .contactmain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
