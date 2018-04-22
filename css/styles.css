@@ -39,7 +39,11 @@ a {
     width: 100%;
     height: 100%;
     margin: 0px;
+<<<<<<< HEAD
     background-color: #808080;
+=======
+    background-color: #D3D3D3;
+>>>>>>> d55545a5a33e6143dbf1452f5bef3da9571ac5c7
   }
 
   header {
@@ -71,7 +75,11 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: black;
+>>>>>>> d55545a5a33e6143dbf1452f5bef3da9571ac5c7
     color: white;
   }
 
@@ -96,7 +104,11 @@ a {
     height: 5%;
     width: 100%;
     color: white;
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: black;
+>>>>>>> d55545a5a33e6143dbf1452f5bef3da9571ac5c7
   }
 
   main {
@@ -389,7 +401,11 @@ width: 50%;
     align-items: center;
     height: 10%;
     width: 100%;
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: black;
+>>>>>>> d55545a5a33e6143dbf1452f5bef3da9571ac5c7
     color: white;
   }
 
@@ -413,7 +429,11 @@ width: 50%;
     height: 5%;
     width: 100%;
     color: white;
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: black;
+>>>>>>> d55545a5a33e6143dbf1452f5bef3da9571ac5c7
   }
 
   main {
