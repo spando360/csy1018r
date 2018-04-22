@@ -1,3 +1,4 @@
-# CSY1018R
+Tyrone Materesi
+16433761
 
-https://donmike98.github.io/CSY1018R/index.html
+https://github.com/spando360/csy1018r.git
